@@ -1,0 +1,122 @@
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: darkslategray;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:peru;
+    padding: 15px 30px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: maroon;
+}
+
+
+.search-box {
+    flex: 1;
+    text-align: center;
+}
+
+.search-box input {
+    width: 250px;
+    padding: 6px;
+    border: 1px solid brown;
+    background-color: ivory;
+}
+
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+nav a:hover {
+    color: maroon;
+}
+
+
+.banner {
+    
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-card {
+    background-color: tan;
+    padding: 40px 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.banner-card h1 {
+    color: maroon;
+    margin-bottom: 10px;
+}
+
+.clothes {
+    padding: 40px;
+    text-align: center;
+}
+
+.clothes h2 {
+    color: maroon;
+    margin-bottom: 25px;
+}
+
+
+.featured {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.big {
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+    border: 2px solid tan;
+}
+
+.small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.small-images img {
+    width: 150px;
+    height: 170px;
+    border-radius: 6px;
+    border: 2px solid tan;
+}
+
+
+
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
