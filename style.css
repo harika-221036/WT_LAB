@@ -112,6 +112,69 @@ nav a:hover {
 }
 
 
+.form-section{
+    width:70%;
+    margin:30px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    background:#fff;
+}
+
+.form-section h2{
+    text-align:center;
+    color:brown;
+}
+
+.form-section form{
+    display:flex;
+    flex-direction:column;
+}
+
+.form-section label{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="password"],
+.form-section input[type="number"],
+.form-section select{
+    width:200px;
+    padding:5px;
+    margin-top:5px;
+}
+
+.form-section textarea{
+    width:250px;
+    height:80px;
+    margin-top:5px;
+}
+
+.form-section input[type="radio"],
+.form-section input[type="checkbox"]{
+    margin:5px;
+}
+
+.form-section button{
+    width:120px;
+    margin-top:15px;
+    padding:6px;
+    background:peru;
+    border:none;
+    color:white;
+}
+
+.form-section button:hover{
+    background:saddlebrown;
+}
+
+
+@media(max-width:600px){
+    .form-section{
+        width:90%;
+    }
+}
 
 footer {
     background-color: maroon;
